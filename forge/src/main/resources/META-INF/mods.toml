@@ -1,0 +1,33 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "GNU LGPL 3.0"
+
+[[mods]]
+modId = "faelib"
+version = "${version}"
+displayName = "FaeLib"
+authors = ""
+description = "A cross-launcher API for Feintha's mods"
+#logoFile = ""
+
+[[dependencies.faelib]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.faelib]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.faelib]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.2.14,)"
+ordering = "AFTER"
+side = "BOTH"
